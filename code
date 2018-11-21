@@ -1,0 +1,34 @@
+#include <SPI.h>
+#include <Ethernet.h>
+
+#define FLEXsensor_limit_HI 250 // Constants define at start 
+#define FLEXsensor_limit_LOW 180 
+#define ONBOARD_LED 13 
+#define FLEX_SENSOR 0
+int turnvalue = 0;
+byte turnstate= 0;
+
+
+
+
+
+void setup() {
+// serial debubbing for window
+Serial.begin(9600);
+// to get the output onboard led
+pinMode(builtin_LED, OUTPUT);
+Serial.println("begin");
+
+Serial.println(Ethernet.begin(MAC));
+
+delay(2000);
+}
+
+
+
+
+void loop() 
+{
+  // wait for 2 second for each loop cycle  
+  delay(2000);
+}
