@@ -7,6 +7,15 @@
 #define FLEX_SENSOR 0
 int turnvalue = 0;
 byte turnstate= 0;
+//initializing the different criteria to connect to server 
+byte MAC[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF }; 
+byte IPADDR[] = { 192, 168, 1, 230 };
+byte GATEWAY[] = { 192, 168, 1, 1 };
+byte SUBNET[] = { 255, 255, 255, 0 };
+byte PHPSVR[] = {172,16,1,117};
+// initialize a Client object 
+EthernetClient client;
+
 
 
 
@@ -22,6 +31,19 @@ Serial.println("begin");
 Serial.println(Ethernet.begin(MAC));
 
 delay(2000);
+
+while(!client.available()){}
+Serial.println(Ethernet.localIP());
+Serial.println("Connecting to the web server to send alert...");
+if(client.connect("proteinschool.com", 80)){
+  Serial.println("Server Connected..");
+}
+else {
+  Serial.println("Connection Failed !");
+}
+delay(1000);
+}
+
 }
 
 
@@ -31,4 +53,5 @@ void loop()
 {
   // wait for 2 second for each loop cycle  
   delay(2000);
+    turnvalue = analogRead(Pressuresensor); 
 }
