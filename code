@@ -41,7 +41,7 @@ if(client.connect("proteinschool.com", 80)){
 else {
   Serial.println("Connection Failed !");
 }
-delay(1000);
+ 
 }
 
 }
