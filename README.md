@@ -1,2 +1,7 @@
 # CS207PROJECT
 Project for CS 207 - building Interactive Gadgets
+
+# TEAM
+1.GURBIR SINGH DUTT
+2.BAWANDEEP SINGH
+3.PRABHDEEP SINGH
