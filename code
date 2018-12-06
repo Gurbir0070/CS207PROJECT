@@ -42,7 +42,7 @@ else {
   Serial.println("Connection Failed !");
 }
  
-}
+delay(1000);
 
 }
 
