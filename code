@@ -38,6 +38,32 @@ Serial.println("Connecting to the web server to send alert...");
 if(client.connect("proteinschool.com", 80)){
   Serial.println("Server Connected..");
 }
+
+
+
+void ContactWebServer(int turnvalue, int turnstate)
+{ 
+ if(!client.connected()){
+client.connect("www.proteinschool.com", 80);
+ }
+
+if (client.connected())
+{ Serial.println("Connected to PHP server");
+// sending  an HTTP request:
+client.println("GET /water.php?alert=1 HTTP/1.0");
+client.println("Host: testwater.com");
+client.println("User-Agent: Arduino");
+//client.print(turnstate);
+//client.print("&flex=");
+//client.print(turnvalue);
+//client.println(" HTTP/1.0");
+client.println();
+client.stop();
+} else { 
+  Serial.println("Failed to connect to the web server");
+  }
+}
+
 else {
   Serial.println("Connection Failed !");
 }
