@@ -11,6 +11,8 @@ images - this folder contains the images of project
 
 code - here goes the code 
 
+License - the license
+
 readme - the file reading now 
 
 # MATERIAL REQUIRED FOR PROJECT
