@@ -3,23 +3,37 @@
 
 # TEAM
 1.GURBIR SINGH DUTT
+
 2.BAWANDEEP SINGH
+
 3.PRABHDEEP SINGH
 
 # REPOSITORY CONTENT
+
 images - this folder contains the images of project
+
 code - here goes the code 
+
 readme - the file reading now 
 
 # MATERIAL REQUIRED FOR PROJECT
+
 	An Arduino Uno
+
 	An ethernet SHIELD
+
 	A FLEX sensor 
+
 	A 10K ohm resistor
+
 	A 1-inch fishing bobber
+
 	Connecting wires
+
 	A 9-Volt power supply to power Arduino and Ethernet Shield
+
 	A web server running PHP 4.3  or higher
+
 
 
 # INTRODUCTION
@@ -38,11 +52,19 @@ The Internet of things is defined as the inter-networking of physical Devices su
 
 
 ALGORITHM: -
+
 	STEP1: - If the rainfall occurred 
+
 	STEP2: - Sensor get activated, monitoring water level initiated  
+
 	STEP3: - loop initiated 
+
 	STEP4: - Analysing of new water level and send data for calculation.
+
 	STEP5: - if the water level is above the prescribed level then
+
 	STEP6: - Evaluating the threshold value and send the notification about flooding condition.
+
 	STEP7: - Warning notification send via Wi-Fi network.
+
 	STEP8: - Stop the System.
