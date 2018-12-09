@@ -16,7 +16,7 @@ byte PHPSVR[] = {172,16,1,117};
 // initialize a Client object 
 EthernetClient client;
 void setup() {
-// serial debubbing for window
+
 Serial.begin(9600);
 // to get the output onboard led
 pinMode(builtin_LED, OUTPUT);
