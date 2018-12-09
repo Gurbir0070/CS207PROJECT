@@ -51,7 +51,7 @@ readme - the file reading now
 
 
 
-ALGORITHM: -
+# ALGORITHM: -
 
 	STEP1: - If the rainfall occurred 
 
