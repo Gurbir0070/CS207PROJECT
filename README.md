@@ -5,7 +5,7 @@ The Internet of things is defined as the inter-networking of physical Devices su
 
 ![alt text][pic1]
 
-[pic1]:
+[pic1]:https://github.com/Gurbir0070/CS207PROJECT/blob/master/images/8d820caa-2ce7-47c1-8f99-f63acf0bd36e.JPG
 
 # REPOSITORY CONTENT
 
