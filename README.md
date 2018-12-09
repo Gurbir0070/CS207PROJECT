@@ -36,21 +36,6 @@ readme - the file reading now
 	A web server running PHP 4.3  or higher
 
 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
 # ALGORITHM: -
 
 	STEP1: - If the rainfall occurred 
