@@ -7,6 +7,8 @@ The Internet of things is defined as the inter-networking of physical Devices su
 
 [pic1]:https://github.com/Gurbir0070/CS207PROJECT/blob/master/images/8d820caa-2ce7-47c1-8f99-f63acf0bd36e.JPG
 
+
+
 # REPOSITORY CONTENT
 
 images - this folder contains the images of project
@@ -54,8 +56,13 @@ readme - the file reading now
 
 	STEP8: - Stop the System.
 
+# BUILD DIAGRAM
 
-# WORKING
+![alt text][pic1]
+
+[pic1]:https://github.com/Gurbir0070/CS207PROJECT/blob/master/images/circuit.JPG
+
+# USAGE
 
 Attach wire and a resistor to the sensor leads end of flex resistor
 
