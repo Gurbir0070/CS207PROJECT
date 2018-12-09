@@ -58,9 +58,9 @@ readme - the file reading now
 
 # BUILD DIAGRAM
 
-![alt text][pic1]
+![alt text][pic2]
 
-[pic1]:https://github.com/Gurbir0070/CS207PROJECT/blob/master/images/circuit.JPG
+[pic2]:https://github.com/Gurbir0070/CS207PROJECT/blob/master/images/circuit.JPG
 
 # USAGE
 
